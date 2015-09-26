@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BeerMeKC</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_brewery_map">Brewery Map</string>
+    <string name="title_activity_dmap">Brewery Map</string>
+</resources>
