@@ -1,0 +1,17 @@
+<ion-view view-title="Add a Brewery">
+  <div class="modal">
+    <ion-header-bar class="bar-secondary">
+      <h1 class="brewery-name">New Brewery</h1>
+      <button class="button button-clear button-positive" ng-click="closeNewBrewery()"></button>
+
+    </ion-header-bar>
+    <ion-content>
+      <form ng-submit="createBrewery(brewery)">
+        <label class="item item-input">
+          <input type="text" placeholder="Enter brewery's name" ng-model=brewery.name >
+        </label>
+      </form>
+
+    </ion-content>
+  </div>
+</ion-view>
